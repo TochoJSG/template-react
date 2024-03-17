@@ -1,0 +1,43 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 8px;
+  background-color: #daf;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logo-contenedor{
+  width: 100%;
+  height: 50px;
+  margin: 8px 0 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 66px;
+}
+.fila{
+  margin: 3px;
+  display: flex;
+}
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
+
+.contenedor-main{
+  width: 400px;
+  height: 450px;
+  padding: 17px;
+  background-color: #ffad;
+  border-radius: 17px;
+  border: 3px solid #fff;
+}
